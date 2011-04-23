@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'AMFoundation_MacOSX' target in the 'AMFoundation_MacOSX' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

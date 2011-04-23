@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'AMFoundation_iOS' target in the 'AMFoundation_iOS' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
