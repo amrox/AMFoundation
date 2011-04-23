@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3204DA7136388230061A1CE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3204DA6136388230061A1CE /* Cocoa.framework */; };
+		B3204DB5136388230061A1CE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3204DA6136388230061A1CE /* Cocoa.framework */; };
+		B3204DB8136388230061A1CE /* libAMFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3204DA3136388230061A1CE /* libAMFoundation.a */; };
+		B3204DBE136388230061A1CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3204DBC136388230061A1CE /* InfoPlist.strings */; };
+		B3204DC1136388230061A1CE /* AMFoundationTests.h in Resources */ = {isa = PBXBuildFile; fileRef = B3204DC0136388230061A1CE /* AMFoundationTests.h */; };
+		B3204DC3136388230061A1CE /* AMFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3204DC2136388230061A1CE /* AMFoundationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3204DB6136388230061A1CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3204D9A136388230061A1CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3204DA2136388230061A1CE;
+			remoteInfo = AMFoundation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3204DA3136388230061A1CE /* libAMFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAMFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3204DA6136388230061A1CE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B3204DA9136388230061A1CE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B3204DAA136388230061A1CE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B3204DAB136388230061A1CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3204DAE136388230061A1CE /* AMFoundation-Prefix.pch */ = {isa = PBXFileReference; path = "AMFoundation-Prefix.pch"; sourceTree = "<group>"; };
+		B3204DB4136388230061A1CE /* AMFoundationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMFoundationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3204DBB136388230061A1CE /* AMFoundationTests-Info.plist */ = {isa = PBXFileReference; path = "AMFoundationTests-Info.plist"; sourceTree = "<group>"; };
+		B3204DBD136388230061A1CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3204DBF136388230061A1CE /* AMFoundationTests-Prefix.pch */ = {isa = PBXFileReference; path = "AMFoundationTests-Prefix.pch"; sourceTree = "<group>"; };
+		B3204DC0136388230061A1CE /* AMFoundationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMFoundationTests.h; sourceTree = "<group>"; };
+		B3204DC2136388230061A1CE /* AMFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMFoundationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3204DA0136388230061A1CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3204DA7136388230061A1CE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3204DB0136388230061A1CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3204DB5136388230061A1CE /* Cocoa.framework in Frameworks */,
+				B3204DB8136388230061A1CE /* libAMFoundation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3204D98136388230061A1CE = {
+			isa = PBXGroup;
+			children = (
+				B3204DAC136388230061A1CE /* AMFoundation */,
+				B3204DB9136388230061A1CE /* AMFoundationTests */,
+				B3204DA5136388230061A1CE /* Frameworks */,
+				B3204DA4136388230061A1CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3204DA4136388230061A1CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3204DA3136388230061A1CE /* libAMFoundation.a */,
+				B3204DB4136388230061A1CE /* AMFoundationTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3204DA5136388230061A1CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3204DA6136388230061A1CE /* Cocoa.framework */,
+				B3204DA8136388230061A1CE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3204DA8136388230061A1CE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3204DA9136388230061A1CE /* AppKit.framework */,
+				B3204DAA136388230061A1CE /* CoreData.framework */,
+				B3204DAB136388230061A1CE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B3204DAC136388230061A1CE /* AMFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				B3204DAD136388230061A1CE /* Supporting Files */,
+			);
+			path = AMFoundation;
+			sourceTree = "<group>";
+		};
+		B3204DAD136388230061A1CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3204DAE136388230061A1CE /* AMFoundation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3204DB9136388230061A1CE /* AMFoundationTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3204DC0136388230061A1CE /* AMFoundationTests.h */,
+				B3204DC2136388230061A1CE /* AMFoundationTests.m */,
+				B3204DBA136388230061A1CE /* Supporting Files */,
+			);
+			path = AMFoundationTests;
+			sourceTree = "<group>";
+		};
+		B3204DBA136388230061A1CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3204DBB136388230061A1CE /* AMFoundationTests-Info.plist */,
+				B3204DBC136388230061A1CE /* InfoPlist.strings */,
+				B3204DBF136388230061A1CE /* AMFoundationTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B3204DA1136388230061A1CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B3204DA2136388230061A1CE /* AMFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3204DC6136388230061A1CE /* Build configuration list for PBXNativeTarget "AMFoundation" */;
+			buildPhases = (
+				B3204D9F136388230061A1CE /* Sources */,
+				B3204DA0136388230061A1CE /* Frameworks */,
+				B3204DA1136388230061A1CE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMFoundation;
+			productName = AMFoundation;
+			productReference = B3204DA3136388230061A1CE /* libAMFoundation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B3204DB3136388230061A1CE /* AMFoundationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3204DC9136388230061A1CE /* Build configuration list for PBXNativeTarget "AMFoundationTests" */;
+			buildPhases = (
+				B3204DAF136388230061A1CE /* Sources */,
+				B3204DB0136388230061A1CE /* Frameworks */,
+				B3204DB1136388230061A1CE /* Resources */,
+				B3204DB2136388230061A1CE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3204DB7136388230061A1CE /* PBXTargetDependency */,
+			);
+			name = AMFoundationTests;
+			productName = AMFoundationTests;
+			productReference = B3204DB4136388230061A1CE /* AMFoundationTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3204D9A136388230061A1CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = MindSnacks;
+			};
+			buildConfigurationList = B3204D9D136388230061A1CE /* Build configuration list for PBXProject "AMFoundation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3204D98136388230061A1CE;
+			productRefGroup = B3204DA4136388230061A1CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3204DA2136388230061A1CE /* AMFoundation */,
+				B3204DB3136388230061A1CE /* AMFoundationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3204DB1136388230061A1CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3204DBE136388230061A1CE /* InfoPlist.strings in Resources */,
+				B3204DC1136388230061A1CE /* AMFoundationTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B3204DB2136388230061A1CE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3204D9F136388230061A1CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3204DAF136388230061A1CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3204DC3136388230061A1CE /* AMFoundationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3204DB7136388230061A1CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3204DA2136388230061A1CE /* AMFoundation */;
+			targetProxy = B3204DB6136388230061A1CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3204DBC136388230061A1CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3204DBD136388230061A1CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3204DC4136388230061A1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B3204DC5136388230061A1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B3204DC7136388230061A1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMFoundation/AMFoundation-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3204DC8136388230061A1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMFoundation/AMFoundation-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B3204DCA136388230061A1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMFoundationTests/AMFoundationTests-Prefix.pch";
+				INFOPLIST_FILE = "AMFoundationTests/AMFoundationTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B3204DCB136388230061A1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMFoundationTests/AMFoundationTests-Prefix.pch";
+				INFOPLIST_FILE = "AMFoundationTests/AMFoundationTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3204D9D136388230061A1CE /* Build configuration list for PBXProject "AMFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3204DC4136388230061A1CE /* Debug */,
+				B3204DC5136388230061A1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3204DC6136388230061A1CE /* Build configuration list for PBXNativeTarget "AMFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3204DC7136388230061A1CE /* Debug */,
+				B3204DC8136388230061A1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3204DC9136388230061A1CE /* Build configuration list for PBXNativeTarget "AMFoundationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3204DCA136388230061A1CE /* Debug */,
+				B3204DCB136388230061A1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3204D9A136388230061A1CE /* Project object */;
+}
