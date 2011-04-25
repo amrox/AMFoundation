@@ -41,8 +41,8 @@
 		B3204DC2136388230061A1CE /* AMFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMFoundationTests.m; sourceTree = "<group>"; };
 		B3204DD3136388600061A1CE /* libAMFoundation_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAMFoundation_iOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3204DD8136388600061A1CE /* AMFoundation_iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AMFoundation_iOS-Prefix.pch"; sourceTree = "<group>"; };
-		B3204DE11363888B0061A1CE /* libAMFoundation_MacOSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAMFoundation_MacOSX.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3204DE51363888B0061A1CE /* AMFoundation_MacOSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AMFoundation_MacOSX-Prefix.pch"; sourceTree = "<group>"; };
+		B3204DE11363888B0061A1CE /* libAMFoundation_Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAMFoundation_Mac.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3204DE51363888B0061A1CE /* AMFoundation_Mac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AMFoundation_Mac-Prefix.pch"; sourceTree = "<group>"; };
 		B3204DEF1363893A0061A1CE /* AMExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMExtensions.h; sourceTree = "<group>"; };
 		B3204DF01363893A0061A1CE /* AMExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMExtensions.m; sourceTree = "<group>"; };
 		B3204DF11363893A0061A1CE /* AMGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGeometry.h; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 			children = (
 				B3204DAC136388230061A1CE /* AMFoundation */,
 				B3204DD6136388600061A1CE /* AMFoundation_iOS */,
-				B3204DE31363888B0061A1CE /* AMFoundation_MacOSX */,
+				B3204DE31363888B0061A1CE /* AMFoundation_Mac */,
 				B3204DB9136388230061A1CE /* AMFoundationTests */,
 				B3204DA5136388230061A1CE /* Frameworks */,
 				B3204DA4136388230061A1CE /* Products */,
@@ -102,7 +102,7 @@
 			children = (
 				B3204DB4136388230061A1CE /* AMFoundationTests.octest */,
 				B3204DD3136388600061A1CE /* libAMFoundation_iOS.a */,
-				B3204DE11363888B0061A1CE /* libAMFoundation_MacOSX.a */,
+				B3204DE11363888B0061A1CE /* libAMFoundation_Mac.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -166,18 +166,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B3204DE31363888B0061A1CE /* AMFoundation_MacOSX */ = {
+		B3204DE31363888B0061A1CE /* AMFoundation_Mac */ = {
 			isa = PBXGroup;
 			children = (
 				B3204DE41363888B0061A1CE /* Supporting Files */,
 			);
-			path = AMFoundation_MacOSX;
+			path = AMFoundation_Mac;
 			sourceTree = "<group>";
 		};
 		B3204DE41363888B0061A1CE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B3204DE51363888B0061A1CE /* AMFoundation_MacOSX-Prefix.pch */,
+				B3204DE51363888B0061A1CE /* AMFoundation_Mac-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -243,9 +243,9 @@
 			productReference = B3204DD3136388600061A1CE /* libAMFoundation_iOS.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		B3204DE01363888B0061A1CE /* AMFoundation_MacOSX */ = {
+		B3204DE01363888B0061A1CE /* AMFoundation_Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B3204DE61363888B0061A1CE /* Build configuration list for PBXNativeTarget "AMFoundation_MacOSX" */;
+			buildConfigurationList = B3204DE61363888B0061A1CE /* Build configuration list for PBXNativeTarget "AMFoundation_Mac" */;
 			buildPhases = (
 				B3204DDD1363888B0061A1CE /* Sources */,
 				B3204DDE1363888B0061A1CE /* Frameworks */,
@@ -255,9 +255,9 @@
 			);
 			dependencies = (
 			);
-			name = AMFoundation_MacOSX;
+			name = AMFoundation_Mac;
 			productName = AMFoundation_MacOSX;
-			productReference = B3204DE11363888B0061A1CE /* libAMFoundation_MacOSX.a */;
+			productReference = B3204DE11363888B0061A1CE /* libAMFoundation_Mac.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -281,7 +281,7 @@
 			projectRoot = "";
 			targets = (
 				B3204DD2136388600061A1CE /* AMFoundation_iOS */,
-				B3204DE01363888B0061A1CE /* AMFoundation_MacOSX */,
+				B3204DE01363888B0061A1CE /* AMFoundation_Mac */,
 				B3204DB3136388230061A1CE /* AMFoundationTests */,
 			);
 		};
@@ -472,7 +472,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AMFoundation_MacOSX/AMFoundation_MacOSX-Prefix.pch";
+				GCC_PREFIX_HEADER = "AMFoundation_Mac/AMFoundation_Mac-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -485,7 +485,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AMFoundation_MacOSX/AMFoundation_MacOSX-Prefix.pch";
+				GCC_PREFIX_HEADER = "AMFoundation_Mac/AMFoundation_Mac-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -518,14 +518,16 @@
 				B3204DDA136388600061A1CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		B3204DE61363888B0061A1CE /* Build configuration list for PBXNativeTarget "AMFoundation_MacOSX" */ = {
+		B3204DE61363888B0061A1CE /* Build configuration list for PBXNativeTarget "AMFoundation_Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B3204DE71363888B0061A1CE /* Debug */,
 				B3204DE81363888B0061A1CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
