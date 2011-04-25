@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B3204DE01363888B0061A1CE"
-               BuildableName = "libAMFoundation_MacOSX.a"
+               BuildableName = "libAMFoundation_Mac.a"
                BlueprintName = "AMFoundation_Mac"
                ReferencedContainer = "container:AMFoundation.xcodeproj">
             </BuildableReference>
