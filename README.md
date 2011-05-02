@@ -29,3 +29,7 @@ Simple macros for DEBUG, INFO, and ERROR logging
  * LOG_DEBUG
  * LOG_INFO
  * LOG_ERROR
+
+## AMError
+
+ * Stuff more making error codes. Needs documentation.
