@@ -19,7 +19,7 @@ NSError* _AMErrorMake( int errorCode, char const *errorName,  char const *fileNa
 	[dict setValue:errorNameString forKey:AMErrorNameKey];
 	[dict setValue:localizedDescription forKey:NSLocalizedDescriptionKey];
 	
-	return [NSError errorWithDomain:[[NSBundle mainBundle] bundleIdentifier] code:errorCode userInfo:dict];;
+	return [NSError errorWithDomain:[[NSBundle mainBundle] bundleIdentifier] code:errorCode userInfo:dict];
 }
 
 
