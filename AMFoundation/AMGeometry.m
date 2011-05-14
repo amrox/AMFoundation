@@ -11,7 +11,7 @@
 
 CGRect AMRectInsetWithAspectRatio( CGRect rect, CGFloat insetRatio )
 {
-	CGFloat dx = 0., dy = 0.;
+	CGFloat dx = 0.f, dy = 0.f;
 	
 	CGFloat myAspectRatio = rect.size.width / rect.size.height;
 	

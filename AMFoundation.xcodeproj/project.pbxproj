@@ -36,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B31F741B137E44C800250779 /* Library.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Library.xcconfig; sourceTree = "<group>"; };
 		B3204DA6136388230061A1CE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B3204DB4136388230061A1CE /* AMFoundationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMFoundationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3204DBB136388230061A1CE /* AMFoundationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AMFoundationTests-Info.plist"; sourceTree = "<group>"; };
@@ -94,6 +95,7 @@
 		B3204D98136388230061A1CE = {
 			isa = PBXGroup;
 			children = (
+				B31F741B137E44C800250779 /* Library.xcconfig */,
 				B3204DAC136388230061A1CE /* AMFoundation */,
 				B3204DD6136388600061A1CE /* AMFoundation_iOS */,
 				B3204DE31363888B0061A1CE /* AMFoundation_Mac */,
@@ -446,6 +448,7 @@
 		};
 		B3204DD9136388600061A1CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B31F741B137E44C800250779 /* Library.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
@@ -456,13 +459,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = include/$PROJECT_NAME;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
 		B3204DDA136388600061A1CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B31F741B137E44C800250779 /* Library.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
@@ -473,13 +476,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = include/$PROJECT_NAME;
 				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
 		B3204DE71363888B0061A1CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B31F741B137E44C800250779 /* Library.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
@@ -488,12 +491,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AMFoundation_Mac/AMFoundation_Mac-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = include/$PROJECT_NAME;
 			};
 			name = Debug;
 		};
 		B3204DE81363888B0061A1CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B31F741B137E44C800250779 /* Library.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
@@ -502,7 +505,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AMFoundation_Mac/AMFoundation_Mac-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = include/$PROJECT_NAME;
 			};
 			name = Release;
 		};
