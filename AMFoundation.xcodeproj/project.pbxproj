@@ -42,7 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B31F741B137E44C800250779 /* Library.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Library.xcconfig; sourceTree = "<group>"; };
+		B31F741B137E44C800250779 /* PortableStaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = PortableStaticLibrary.xcconfig; sourceTree = "<group>"; };
 		B31F7440137E4BD500250779 /* AMUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMUtility.h; sourceTree = "<group>"; };
 		B31F7441137E4BD500250779 /* AMUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMUtility.m; sourceTree = "<group>"; };
 		B31F7447137E4BF300250779 /* AMFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMFoundation.h; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 		B3204D98136388230061A1CE = {
 			isa = PBXGroup;
 			children = (
-				B31F741B137E44C800250779 /* Library.xcconfig */,
+				B31F741B137E44C800250779 /* PortableStaticLibrary.xcconfig */,
 				B3204DAC136388230061A1CE /* AMFoundation */,
 				B3204DD6136388600061A1CE /* AMFoundation_iOS */,
 				B3204DE31363888B0061A1CE /* AMFoundation_Mac */,
@@ -258,6 +258,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3204DDB136388600061A1CE /* Build configuration list for PBXNativeTarget "AMFoundation_iOS" */;
 			buildPhases = (
+				B31F7472137F143700250779 /* Log Environment */,
 				B3204DCF136388600061A1CE /* Sources */,
 				B3204DD0136388600061A1CE /* Frameworks */,
 				B3204DD1136388600061A1CE /* Headers */,
@@ -328,6 +329,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		B31F7472137F143700250779 /* Log Environment */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Log Environment";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
 		B3204DB2136388230061A1CE /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -465,7 +480,7 @@
 		};
 		B3204DD9136388600061A1CE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B31F741B137E44C800250779 /* Library.xcconfig */;
+			baseConfigurationReference = B31F741B137E44C800250779 /* PortableStaticLibrary.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
@@ -473,6 +488,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AMFoundation_iOS/AMFoundation_iOS-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INSTALL_PATH = "/../BuildProductsPath/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,7 +498,7 @@
 		};
 		B3204DDA136388600061A1CE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B31F741B137E44C800250779 /* Library.xcconfig */;
+			baseConfigurationReference = B31F741B137E44C800250779 /* PortableStaticLibrary.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
@@ -490,6 +506,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AMFoundation_iOS/AMFoundation_iOS-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INSTALL_PATH = "/../BuildProductsPath/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -499,7 +516,7 @@
 		};
 		B3204DE71363888B0061A1CE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B31F741B137E44C800250779 /* Library.xcconfig */;
+			baseConfigurationReference = B31F741B137E44C800250779 /* PortableStaticLibrary.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
@@ -513,7 +530,7 @@
 		};
 		B3204DE81363888B0061A1CE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B31F741B137E44C800250779 /* Library.xcconfig */;
+			baseConfigurationReference = B31F741B137E44C800250779 /* PortableStaticLibrary.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
