@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B31F7442137E4BD500250779 /* AMUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = B31F7440137E4BD500250779 /* AMUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B31F7443137E4BD500250779 /* AMUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = B31F7440137E4BD500250779 /* AMUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B31F7444137E4BD500250779 /* AMUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B31F7441137E4BD500250779 /* AMUtility.m */; };
+		B31F7445137E4BD500250779 /* AMUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B31F7441137E4BD500250779 /* AMUtility.m */; };
+		B31F7448137E4BF300250779 /* AMFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = B31F7447137E4BF300250779 /* AMFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B31F7449137E4BF300250779 /* AMFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = B31F7447137E4BF300250779 /* AMFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3204DB5136388230061A1CE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3204DA6136388230061A1CE /* Cocoa.framework */; };
 		B3204DBE136388230061A1CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3204DBC136388230061A1CE /* InfoPlist.strings */; };
 		B3204DC1136388230061A1CE /* AMFoundationTests.h in Resources */ = {isa = PBXBuildFile; fileRef = B3204DC0136388230061A1CE /* AMFoundationTests.h */; };
@@ -37,6 +43,9 @@
 
 /* Begin PBXFileReference section */
 		B31F741B137E44C800250779 /* Library.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Library.xcconfig; sourceTree = "<group>"; };
+		B31F7440137E4BD500250779 /* AMUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMUtility.h; sourceTree = "<group>"; };
+		B31F7441137E4BD500250779 /* AMUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMUtility.m; sourceTree = "<group>"; };
+		B31F7447137E4BF300250779 /* AMFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMFoundation.h; sourceTree = "<group>"; };
 		B3204DA6136388230061A1CE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B3204DB4136388230061A1CE /* AMFoundationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMFoundationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3204DBB136388230061A1CE /* AMFoundationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AMFoundationTests-Info.plist"; sourceTree = "<group>"; };
@@ -129,6 +138,7 @@
 		B3204DAC136388230061A1CE /* AMFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				B31F7447137E4BF300250779 /* AMFoundation.h */,
 				B3802A76136E8BBA002A5748 /* AMError.h */,
 				B3802A7A136E8C1A002A5748 /* AMError.m */,
 				B3204DEF1363893A0061A1CE /* AMExtensions.h */,
@@ -136,6 +146,8 @@
 				B3204DF11363893A0061A1CE /* AMGeometry.h */,
 				B3204DF21363893A0061A1CE /* AMGeometry.m */,
 				B3204DF31363893A0061A1CE /* AMLogMacros.h */,
+				B31F7440137E4BD500250779 /* AMUtility.h */,
+				B31F7441137E4BD500250779 /* AMUtility.m */,
 			);
 			path = AMFoundation;
 			sourceTree = "<group>";
@@ -201,6 +213,8 @@
 			files = (
 				B3204DF41363893A0061A1CE /* AMExtensions.h in Headers */,
 				B3204DF91363893A0061A1CE /* AMGeometry.h in Headers */,
+				B31F7448137E4BF300250779 /* AMFoundation.h in Headers */,
+				B31F7442137E4BD500250779 /* AMUtility.h in Headers */,
 				B3204DFE1363893A0061A1CE /* AMLogMacros.h in Headers */,
 				B3802A77136E8BBA002A5748 /* AMError.h in Headers */,
 			);
@@ -213,6 +227,8 @@
 				B3204DF51363893A0061A1CE /* AMExtensions.h in Headers */,
 				B3204DFA1363893A0061A1CE /* AMGeometry.h in Headers */,
 				B3204DFF1363893A0061A1CE /* AMLogMacros.h in Headers */,
+				B31F7443137E4BD500250779 /* AMUtility.h in Headers */,
+				B31F7449137E4BF300250779 /* AMFoundation.h in Headers */,
 				B3802A78136E8BBA002A5748 /* AMError.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +361,7 @@
 				B3204DF61363893A0061A1CE /* AMExtensions.m in Sources */,
 				B3204DFB1363893A0061A1CE /* AMGeometry.m in Sources */,
 				B3802A7B136E8C1A002A5748 /* AMError.m in Sources */,
+				B31F7444137E4BD500250779 /* AMUtility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +372,7 @@
 				B3204DF71363893A0061A1CE /* AMExtensions.m in Sources */,
 				B3204DFC1363893A0061A1CE /* AMGeometry.m in Sources */,
 				B3802A7C136E8C1A002A5748 /* AMError.m in Sources */,
+				B31F7445137E4BD500250779 /* AMUtility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
