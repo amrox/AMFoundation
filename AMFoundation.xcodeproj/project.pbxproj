@@ -489,7 +489,6 @@
 				GCC_PREFIX_HEADER = "AMFoundation_iOS/AMFoundation_iOS-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 			};
@@ -506,7 +505,6 @@
 				GCC_PREFIX_HEADER = "AMFoundation_iOS/AMFoundation_iOS-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 			};
