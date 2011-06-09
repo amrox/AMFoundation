@@ -22,8 +22,8 @@ extern "C" {
 	
     static CGPoint inline AMRectCenter( CGRect rect )
     {
-        return CGPointMake(rect.size.width/2. + rect.origin.x,
-                           rect.size.height/2. + rect.origin.y);
+        return CGPointMake(rect.size.width/2.0f + rect.origin.x,
+                           rect.size.height/2.0f + rect.origin.y);
     }
     
     extern CGRect AMRectMakeWithOriginAndSize( CGPoint origin, CGSize size );
