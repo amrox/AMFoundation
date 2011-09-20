@@ -14,3 +14,10 @@
 - (id) am_firstObject;
 
 @end
+
+
+@interface NSData (AMExtensions)
+
+- (NSString*) am_utf8String;
+
+@end

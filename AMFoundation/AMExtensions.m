@@ -7,6 +7,10 @@
 //
 
 #import "AMExtensions.h"
+#import "LoadableCategory.h"
+
+
+MAKE_CATEGORIES_LOADABLE(AMExtensions)
 
 
 @implementation NSArray (AMExtensions)
@@ -19,3 +23,16 @@
 }
 
 @end
+
+
+@implementation NSData (AMExtensions)
+
+- (id) am_utf8String
+{
+    NSString* string = [[NSString alloc] initWithData:self encoding:NSUTF8StringEncoding];
+    return [string autorelease];
+}
+
+
+@end
+
