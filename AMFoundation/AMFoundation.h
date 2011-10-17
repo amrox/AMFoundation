@@ -3,7 +3,7 @@
 //  AMFoundation
 //
 //  Created by Andy Mroczkowski on 5/13/11.
-//  Copyright 2011 MindSnacks. All rights reserved.
+//  Copyright 2011 Andy Mroczkowski. All rights reserved.
 //
 
 #import "AMError.h"
