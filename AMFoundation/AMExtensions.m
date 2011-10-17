@@ -7,10 +7,6 @@
 //
 
 #import "AMExtensions.h"
-#import "LoadableCategory.h"
-
-
-MAKE_CATEGORIES_LOADABLE(AMExtensions)
 
 
 @implementation NSArray (AMExtensions)

@@ -35,8 +35,6 @@
 		B3204E0413638ABE0061A1CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3204E001363899E0061A1CE /* Foundation.framework */; };
 		B3204E0613638B010061A1CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3204E0513638B010061A1CE /* CoreGraphics.framework */; };
 		B3204E0813638B160061A1CE /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3204E0713638B160061A1CE /* Quartz.framework */; };
-		B36DD530141FB23A00ABFBA7 /* LoadableCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = B36DD52F141FB23A00ABFBA7 /* LoadableCategory.h */; };
-		B36DD531141FB23A00ABFBA7 /* LoadableCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = B36DD52F141FB23A00ABFBA7 /* LoadableCategory.h */; };
 		B3802A77136E8BBA002A5748 /* AMError.h in Headers */ = {isa = PBXBuildFile; fileRef = B3802A76136E8BBA002A5748 /* AMError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3802A78136E8BBA002A5748 /* AMError.h in Headers */ = {isa = PBXBuildFile; fileRef = B3802A76136E8BBA002A5748 /* AMError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3802A7B136E8C1A002A5748 /* AMError.m in Sources */ = {isa = PBXBuildFile; fileRef = B3802A7A136E8C1A002A5748 /* AMError.m */; };
@@ -67,7 +65,6 @@
 		B3204E001363899E0061A1CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B3204E0513638B010061A1CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		B3204E0713638B160061A1CE /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
-		B36DD52F141FB23A00ABFBA7 /* LoadableCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadableCategory.h; sourceTree = "<group>"; };
 		B3802A76136E8BBA002A5748 /* AMError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMError.h; sourceTree = "<group>"; };
 		B3802A7A136E8C1A002A5748 /* AMError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMError.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,7 +139,6 @@
 			isa = PBXGroup;
 			children = (
 				B31F7447137E4BF300250779 /* AMFoundation.h */,
-				B36DD52F141FB23A00ABFBA7 /* LoadableCategory.h */,
 				B3802A76136E8BBA002A5748 /* AMError.h */,
 				B3802A7A136E8C1A002A5748 /* AMError.m */,
 				B3204DEF1363893A0061A1CE /* AMExtensions.h */,
@@ -221,7 +217,6 @@
 				B31F7442137E4BD500250779 /* AMUtility.h in Headers */,
 				B3204DFE1363893A0061A1CE /* AMLogMacros.h in Headers */,
 				B3802A77136E8BBA002A5748 /* AMError.h in Headers */,
-				B36DD530141FB23A00ABFBA7 /* LoadableCategory.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,7 +230,6 @@
 				B31F7443137E4BD500250779 /* AMUtility.h in Headers */,
 				B31F7449137E4BF300250779 /* AMFoundation.h in Headers */,
 				B3802A78136E8BBA002A5748 /* AMError.h in Headers */,
-				B36DD531141FB23A00ABFBA7 /* LoadableCategory.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +295,7 @@
 		B3204D9A136388230061A1CE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = MindSnacks;
 			};
 			buildConfigurationList = B3204D9D136388230061A1CE /* Build configuration list for PBXProject "AMFoundation" */;
@@ -495,7 +490,7 @@
 				DSTROOT = /tmp/AMFoundation_iOS.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AMFoundation_iOS/AMFoundation_iOS-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -511,7 +506,7 @@
 				DSTROOT = /tmp/AMFoundation_iOS.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AMFoundation_iOS/AMFoundation_iOS-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
