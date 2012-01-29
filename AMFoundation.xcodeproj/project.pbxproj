@@ -486,7 +486,10 @@
 			baseConfigurationReference = B31F741B137E44C800250779 /* PortableStaticLibrary.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv7,
+					armv6,
+				);
 				DSTROOT = /tmp/AMFoundation_iOS.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AMFoundation_iOS/AMFoundation_iOS-Prefix.pch";
@@ -502,7 +505,10 @@
 			baseConfigurationReference = B31F741B137E44C800250779 /* PortableStaticLibrary.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv7,
+					armv6,
+				);
 				DSTROOT = /tmp/AMFoundation_iOS.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AMFoundation_iOS/AMFoundation_iOS-Prefix.pch";
