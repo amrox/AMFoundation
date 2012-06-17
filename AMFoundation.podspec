@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/amrox/AMFoundation"
   s.license      = { :type => 'MIT', :file => 'LICENSE'}
   s.author       = { "Andy Mroczkowski" => "andy@mrox.net" }
-  s.source       = { :git => "https://github.com/amrox/AMFoundation.git", :commit => 'a9c2361' }
+  s.source       = { :git => "https://github.com/amrox/AMFoundation.git", :commit => 'a87117ff96' }
   s.platform     = :ios, '4.0'
 
   # ――― MULTI-PLATFORM VALUES ――――――――――――――――――――――――――――――――――――――――――――――――― #
