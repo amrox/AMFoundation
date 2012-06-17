@@ -4,16 +4,9 @@ Pod::Spec.new do |s|
   s.summary      = "A couple little utilities with an important-sounding name."
   # s.description  = 'An optional longer description of AMFoundation.'
   s.homepage     = "https://github.com/amrox/AMFoundation"
-
-  # Specify the license type. CocoaPods detects automatically the license file if it is named
-  # `LICENSE*', however if the name is different, specify it.
-  # Only if no dedicated file is available include the full text of the license.
-  #
-  s.license      = { :type => 'MIT', :file => 'LICENSE' }
-  # s.license      = { :type => 'MIT', :file => 'LICENSE', :text => 'Permission is hereby granted ...' }
-
+  s.license      = { :type => 'MIT', :file => 'LICENSE'}
   s.author       = { "Andy Mroczkowski" => "andy@mrox.net" }
-  s.source       = { :git => "https://github.com/amrox/AMFoundation.git", :branch => "feature/cocoapods" }
+  s.source       = { :git => "https://github.com/amrox/AMFoundation.git", :commit => 'a9c2361' }
   s.platform     = :ios, '4.0'
 
   # ――― MULTI-PLATFORM VALUES ――――――――――――――――――――――――――――――――――――――――――――――――― #
