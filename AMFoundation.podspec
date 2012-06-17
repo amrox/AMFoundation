@@ -4,10 +4,10 @@ Pod::Spec.new do |s|
   s.summary      = "A couple little utilities with an important-sounding name."
   # s.description  = 'An optional longer description of AMFoundation.'
   s.homepage     = "https://github.com/amrox/AMFoundation"
-  s.license      = { :type => 'MIT', :file => 'LICENSE'}
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Andy Mroczkowski" => "andy@mrox.net" }
   s.source       = { :git => "https://github.com/amrox/AMFoundation.git", :commit => 'a87117ff96' }
-  s.platform     = :ios, '4.0'
+  #s.platform     = :ios, '4.0'
 
   # ――― MULTI-PLATFORM VALUES ――――――――――――――――――――――――――――――――――――――――――――――――― #
 
