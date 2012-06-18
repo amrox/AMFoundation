@@ -7,16 +7,8 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Andy Mroczkowski" => "andy@mrox.net" }
   s.source       = { :git => "https://github.com/amrox/AMFoundation.git", :commit => 'a87117ff96' }
-  s.platform     = :ios, '4.0'
-
-  # ――― MULTI-PLATFORM VALUES ――――――――――――――――――――――――――――――――――――――――――――――――― #
-
-  # If this Pod runs on both platforms, then specify the deployment
-  # targets.
-  #
-  # s.ios.deployment_target = '5.0'
-  # s.osx.deployment_target = '10.7'
-
+  s.ios.deployment_target = '4.0'
+  s.osx.deployment_target = '10.6'
   s.source_files = 'AMFoundation'
   s.frameworks = 'Foundation', 'Quartz'
 
