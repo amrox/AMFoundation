@@ -32,4 +32,4 @@ Simple macros for DEBUG, INFO, and ERROR logging
 
 ## AMError
 
- * Stuff more making error codes. Needs documentation.
+ * Stuff for making error codes. Needs documentation.
