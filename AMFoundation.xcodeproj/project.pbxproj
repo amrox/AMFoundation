@@ -42,7 +42,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B31F741B137E44C800250779 /* PortableStaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = PortableStaticLibrary.xcconfig; sourceTree = "<group>"; };
 		B31F7440137E4BD500250779 /* AMUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMUtility.h; sourceTree = "<group>"; };
 		B31F7441137E4BD500250779 /* AMUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMUtility.m; sourceTree = "<group>"; };
 		B31F7447137E4BF300250779 /* AMFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMFoundation.h; sourceTree = "<group>"; };
@@ -104,7 +103,6 @@
 		B3204D98136388230061A1CE = {
 			isa = PBXGroup;
 			children = (
-				B31F741B137E44C800250779 /* PortableStaticLibrary.xcconfig */,
 				B3204DAC136388230061A1CE /* AMFoundation */,
 				B3204DD6136388600061A1CE /* AMFoundation_iOS */,
 				B3204DE31363888B0061A1CE /* AMFoundation_Mac */,
@@ -408,7 +406,6 @@
 /* Begin XCBuildConfiguration section */
 		B3204DC4136388230061A1CE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B31F741B137E44C800250779 /* PortableStaticLibrary.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -427,7 +424,6 @@
 		};
 		B3204DC5136388230061A1CE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B31F741B137E44C800250779 /* PortableStaticLibrary.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -483,7 +479,6 @@
 		};
 		B3204DD9136388600061A1CE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B31F741B137E44C800250779 /* PortableStaticLibrary.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = (
@@ -502,7 +497,6 @@
 		};
 		B3204DDA136388600061A1CE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B31F741B137E44C800250779 /* PortableStaticLibrary.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = (
@@ -521,7 +515,6 @@
 		};
 		B3204DE71363888B0061A1CE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B31F741B137E44C800250779 /* PortableStaticLibrary.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
@@ -535,7 +528,6 @@
 		};
 		B3204DE81363888B0061A1CE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B31F741B137E44C800250779 /* PortableStaticLibrary.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
