@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B31F7442137E4BD500250779 /* AMUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = B31F7440137E4BD500250779 /* AMUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B31F7443137E4BD500250779 /* AMUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = B31F7440137E4BD500250779 /* AMUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B31F7444137E4BD500250779 /* AMUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B31F7441137E4BD500250779 /* AMUtility.m */; };
+		B31F7445137E4BD500250779 /* AMUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B31F7441137E4BD500250779 /* AMUtility.m */; };
+		B31F7448137E4BF300250779 /* AMFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = B31F7447137E4BF300250779 /* AMFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B31F7449137E4BF300250779 /* AMFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = B31F7447137E4BF300250779 /* AMFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3204DB5136388230061A1CE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3204DA6136388230061A1CE /* Cocoa.framework */; };
 		B3204DBE136388230061A1CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3204DBC136388230061A1CE /* InfoPlist.strings */; };
 		B3204DC1136388230061A1CE /* AMFoundationTests.h in Resources */ = {isa = PBXBuildFile; fileRef = B3204DC0136388230061A1CE /* AMFoundationTests.h */; };
@@ -29,9 +35,16 @@
 		B3204E0413638ABE0061A1CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3204E001363899E0061A1CE /* Foundation.framework */; };
 		B3204E0613638B010061A1CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3204E0513638B010061A1CE /* CoreGraphics.framework */; };
 		B3204E0813638B160061A1CE /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3204E0713638B160061A1CE /* Quartz.framework */; };
+		B3802A77136E8BBA002A5748 /* AMError.h in Headers */ = {isa = PBXBuildFile; fileRef = B3802A76136E8BBA002A5748 /* AMError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3802A78136E8BBA002A5748 /* AMError.h in Headers */ = {isa = PBXBuildFile; fileRef = B3802A76136E8BBA002A5748 /* AMError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3802A7B136E8C1A002A5748 /* AMError.m in Sources */ = {isa = PBXBuildFile; fileRef = B3802A7A136E8C1A002A5748 /* AMError.m */; };
+		B3802A7C136E8C1A002A5748 /* AMError.m in Sources */ = {isa = PBXBuildFile; fileRef = B3802A7A136E8C1A002A5748 /* AMError.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B31F7440137E4BD500250779 /* AMUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMUtility.h; sourceTree = "<group>"; };
+		B31F7441137E4BD500250779 /* AMUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMUtility.m; sourceTree = "<group>"; };
+		B31F7447137E4BF300250779 /* AMFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMFoundation.h; sourceTree = "<group>"; };
 		B3204DA6136388230061A1CE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B3204DB4136388230061A1CE /* AMFoundationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMFoundationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3204DBB136388230061A1CE /* AMFoundationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AMFoundationTests-Info.plist"; sourceTree = "<group>"; };
@@ -51,6 +64,8 @@
 		B3204E001363899E0061A1CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B3204E0513638B010061A1CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		B3204E0713638B160061A1CE /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		B3802A76136E8BBA002A5748 /* AMError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMError.h; sourceTree = "<group>"; };
+		B3802A7A136E8C1A002A5748 /* AMError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMError.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,11 +136,16 @@
 		B3204DAC136388230061A1CE /* AMFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				B31F7447137E4BF300250779 /* AMFoundation.h */,
+				B3802A76136E8BBA002A5748 /* AMError.h */,
+				B3802A7A136E8C1A002A5748 /* AMError.m */,
 				B3204DEF1363893A0061A1CE /* AMExtensions.h */,
 				B3204DF01363893A0061A1CE /* AMExtensions.m */,
 				B3204DF11363893A0061A1CE /* AMGeometry.h */,
 				B3204DF21363893A0061A1CE /* AMGeometry.m */,
 				B3204DF31363893A0061A1CE /* AMLogMacros.h */,
+				B31F7440137E4BD500250779 /* AMUtility.h */,
+				B31F7441137E4BD500250779 /* AMUtility.m */,
 			);
 			path = AMFoundation;
 			sourceTree = "<group>";
@@ -191,7 +211,10 @@
 			files = (
 				B3204DF41363893A0061A1CE /* AMExtensions.h in Headers */,
 				B3204DF91363893A0061A1CE /* AMGeometry.h in Headers */,
+				B31F7448137E4BF300250779 /* AMFoundation.h in Headers */,
+				B31F7442137E4BD500250779 /* AMUtility.h in Headers */,
 				B3204DFE1363893A0061A1CE /* AMLogMacros.h in Headers */,
+				B3802A77136E8BBA002A5748 /* AMError.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +225,9 @@
 				B3204DF51363893A0061A1CE /* AMExtensions.h in Headers */,
 				B3204DFA1363893A0061A1CE /* AMGeometry.h in Headers */,
 				B3204DFF1363893A0061A1CE /* AMLogMacros.h in Headers */,
+				B31F7443137E4BD500250779 /* AMUtility.h in Headers */,
+				B31F7449137E4BF300250779 /* AMFoundation.h in Headers */,
+				B3802A78136E8BBA002A5748 /* AMError.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +256,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3204DDB136388600061A1CE /* Build configuration list for PBXNativeTarget "AMFoundation_iOS" */;
 			buildPhases = (
+				B31F7472137F143700250779 /* Log Environment */,
 				B3204DCF136388600061A1CE /* Sources */,
 				B3204DD0136388600061A1CE /* Frameworks */,
 				B3204DD1136388600061A1CE /* Headers */,
@@ -266,6 +293,7 @@
 		B3204D9A136388230061A1CE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = MindSnacks;
 			};
 			buildConfigurationList = B3204D9D136388230061A1CE /* Build configuration list for PBXProject "AMFoundation" */;
@@ -300,6 +328,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		B31F7472137F143700250779 /* Log Environment */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Log Environment";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
 		B3204DB2136388230061A1CE /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -332,6 +374,8 @@
 			files = (
 				B3204DF61363893A0061A1CE /* AMExtensions.m in Sources */,
 				B3204DFB1363893A0061A1CE /* AMGeometry.m in Sources */,
+				B3802A7B136E8C1A002A5748 /* AMError.m in Sources */,
+				B31F7444137E4BD500250779 /* AMUtility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +385,8 @@
 			files = (
 				B3204DF71363893A0061A1CE /* AMExtensions.m in Sources */,
 				B3204DFC1363893A0061A1CE /* AMGeometry.m in Sources */,
+				B3802A7C136E8C1A002A5748 /* AMError.m in Sources */,
+				B31F7445137E4BD500250779 /* AMUtility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +418,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -436,15 +481,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv7,
+					armv6,
+				);
 				DSTROOT = /tmp/AMFoundation_iOS.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AMFoundation_iOS/AMFoundation_iOS-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = include/$PROJECT_NAME;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -453,15 +499,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv7,
+					armv6,
+				);
 				DSTROOT = /tmp/AMFoundation_iOS.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AMFoundation_iOS/AMFoundation_iOS-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = include/$PROJECT_NAME;
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -476,7 +523,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AMFoundation_Mac/AMFoundation_Mac-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = include/$PROJECT_NAME;
 			};
 			name = Debug;
 		};
@@ -490,7 +536,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AMFoundation_Mac/AMFoundation_Mac-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = include/$PROJECT_NAME;
 			};
 			name = Release;
 		};
