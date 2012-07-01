@@ -1,4 +1,4 @@
 
 
-extern NSString* AMGetUUID();
-extern NSString* AMGetApplicationDocumentsDirectory();
+extern NSString* AMGetUUID(void);
+extern NSString* AMGetApplicationDocumentsDirectory(void);
