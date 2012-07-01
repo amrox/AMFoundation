@@ -8,10 +8,7 @@
 
 #import "AMUtility.h"
 
-NSString* AMGetUUID();
-NSString* AMGetApplicationDocumentsDirectory();
-
-NSString* AMGetUUID()
+NSString* AMGetUUID(void)
 {
     CFUUIDRef theUUID = CFUUIDCreate(NULL);
     CFStringRef string = CFUUIDCreateString(NULL, theUUID);
@@ -19,7 +16,7 @@ NSString* AMGetUUID()
     return [(NSString *)string autorelease];
 }
 
-NSString* AMGetApplicationDocumentsDirectory()
+NSString* AMGetApplicationDocumentsDirectory(void)
 {
 	return [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
 }
