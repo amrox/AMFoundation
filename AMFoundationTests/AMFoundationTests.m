@@ -3,13 +3,28 @@
 //  AMFoundationTests
 //
 //  Created by Andy Mroczkowski on 4/23/11.
-//  Copyright 2011 Amerzing LLC. All rights reserved.
+//  Copyright 2011 Andy Mroczkowski. All rights reserved.
 //
 
 #import "AMFoundationTests.h"
+#import <Availability.h>
 
 
 @implementation AMFoundationTests
+
+
++ (void)initialize
+{
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+#ifdef __MAC_OS_X_VERSION_MIN_REQUIRED
+        NSLog(@"** OSX Tests **");
+#endif
+#ifdef __IPHONE_OS_VERSION_MIN_REQUIRED
+        NSLog(@"** iOS Tests **");
+#endif
+    });
+}
 
 - (void)setUp
 {
@@ -25,9 +40,13 @@
     [super tearDown];
 }
 
-- (void)testExample
-{
-    STFail(@"Unit tests are not implemented yet in AMFoundationTests");
-}
-
+//- (void)testLogEnvironment
+//{
+//#ifdef __MAC_OS_X_VERSION_MIN_REQUIRED
+//    NSLog(@"OSX Tests");
+//#endif
+//#ifdef __IPHONE_OS_VERSION_MIN_REQUIRED
+//    NSLog(@"iOS Tests");
+//#endif
+//}
 @end

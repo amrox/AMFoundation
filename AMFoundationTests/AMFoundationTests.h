@@ -3,7 +3,7 @@
 //  AMFoundationTests
 //
 //  Created by Andy Mroczkowski on 4/23/11.
-//  Copyright 2011 Amerzing LLC. All rights reserved.
+//  Copyright 2011 Andy Mroczkowski. All rights reserved.
 //
 
 #import <SenTestingKit/SenTestingKit.h>

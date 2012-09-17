@@ -26,9 +26,9 @@ Functions for working with CGSizes and CGRects
 
 Simple macros for DEBUG, INFO, and ERROR logging
 
- * LOG_DEBUG
- * LOG_INFO
- * LOG_ERROR
+ * AMLOG_DEBUG
+ * AMLOG_INFO
+ * AMLOG_ERROR
 
 ## AMError
 
