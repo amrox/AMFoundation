@@ -49,7 +49,6 @@
 		B3D42D55160799C000B810A8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D42D53160799B800B810A8 /* QuartzCore.framework */; };
 		B3D42D5C16079A7100B810A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D42D5B16079A7100B810A8 /* CoreGraphics.framework */; };
 		B3D42D9716079F7E00B810A8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D42D57160799E400B810A8 /* SenTestingKit.framework */; };
-		B3D42DB11607A00000B810A8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D42D9F16079FF100B810A8 /* SenTestingKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,7 +79,6 @@
 		B3D42D53160799B800B810A8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		B3D42D57160799E400B810A8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		B3D42D5B16079A7100B810A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		B3D42D9F16079FF100B810A8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +89,6 @@
 				B3D42D5C16079A7100B810A8 /* CoreGraphics.framework in Frameworks */,
 				B3204E02136389C20061A1CE /* Foundation.framework in Frameworks */,
 				B3D42D55160799C000B810A8 /* QuartzCore.framework in Frameworks */,
-				B3D42DB11607A00000B810A8 /* SenTestingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +249,6 @@
 		B3D42D56160799D600B810A8 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				B3D42D9F16079FF100B810A8 /* SenTestingKit.framework */,
 				B3D42D57160799E400B810A8 /* SenTestingKit.framework */,
 			);
 			name = Tests;
