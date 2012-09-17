@@ -6,14 +6,7 @@
 
 #ifdef __OBJC__
 
-#ifdef __MAC_OS_X_VERSION_MIN_REQUIRED
-    #import <Cocoa/Cocoa.h>
-#endif
-
-#ifdef __IPHONE_OS_VERSION_MIN_REQUIRED
     #import <Foundation/Foundation.h>
-#endif
-
-#import <SenTestingKit/SenTestingKit.h>
+    #import <SenTestingKit/SenTestingKit.h>
 
 #endif

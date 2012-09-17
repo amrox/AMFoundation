@@ -28,7 +28,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B3D42D3B1607989900B810A8"
-               BuildableName = "AMFoundationTests copy.octest"
+               BuildableName = "AMFoundationTests.octest"
                BlueprintName = "AMFoundationTests OSX"
                ReferencedContainer = "container:AMFoundation.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B3D42D3B1607989900B810A8"
-               BuildableName = "AMFoundationTests copy.octest"
+               BuildableName = "AMFoundationTests.octest"
                BlueprintName = "AMFoundationTests OSX"
                ReferencedContainer = "container:AMFoundation.xcodeproj">
             </BuildableReference>
