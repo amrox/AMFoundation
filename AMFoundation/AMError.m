@@ -1,5 +1,8 @@
 #import "AMError.h"
 
+NSString *const AMErrorOriginKey = @"ErrorOrigin";
+NSString *const AMErrorNameKey = @"ErrorName";
+
 NSError* _AMErrorMake( int errorCode, char const *errorName, NSString* domain, char const *fileName, int lineNumber, NSDictionary *userInfo )
 {
 	NSString *errorNameString = [NSString stringWithCString:errorName encoding:NSUTF8StringEncoding];

@@ -6,8 +6,8 @@
 extern "C" {
 #endif
 
-static NSString *const AMErrorOriginKey = @"ErrorOrigin";
-static NSString *const AMErrorNameKey = @"ErrorName";
+extern NSString *const AMErrorOriginKey;
+extern NSString *const AMErrorNameKey;
 
 enum
 {
