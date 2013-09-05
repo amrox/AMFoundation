@@ -6,7 +6,7 @@
 //  Copyright 2011 Andy Mroczkowski. All rights reserved.
 //
 
-#import "AMError.h"
-#import "AMExtensions.h"
-#import "AMGeometry.h"
-#import "AMUtility.h"
+#import <AMFoundation/AMError.h>
+#import <AMFoundation/AMExtensions.h>
+#import <AMFoundation/AMGeometry.h>
+#import <AMFoundation/AMUtility.h>
